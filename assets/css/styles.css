@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: black;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.left-panel, .right-panel {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-panel {
+    background-color: #f0f0f0;
+    border-right: 2px solid #ccc;
+}
+
+.right-panel {
+    background-color: white;
+}
+
+.logo .circle {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(to bottom, #ffcc33, #ff9933);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.logo h1 {
+    color: white;
+    font-size: 2em;
+}
+
+form {
+    width: 80%;
+}
+
+form h2 {
+    text-align: center;
+}
